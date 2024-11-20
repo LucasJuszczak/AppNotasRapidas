@@ -1,4 +1,4 @@
-package com.example.appnotasrapidas.model
+package com.example.appreceitas.model
 
 class PersonRepository {
     fun login(email: String, password: String): Boolean{

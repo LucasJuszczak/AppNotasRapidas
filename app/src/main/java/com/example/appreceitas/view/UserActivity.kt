@@ -1,11 +1,11 @@
-package com.example.appnotasrapidas.view
+package com.example.appreceitas.view
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import com.example.appnotasrapidas.R
+import com.example.appreceitas.R
 
 class UserActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

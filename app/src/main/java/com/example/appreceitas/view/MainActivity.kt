@@ -1,4 +1,4 @@
-package com.example.appnotasrapidas.view
+package com.example.appreceitas.view
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -11,9 +11,9 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.example.appnotasrapidas.viewModel.MainViewModel
-import com.example.appnotasrapidas.R
-import com.example.appnotasrapidas.databinding.ActivityMainBinding
+import com.example.appreceitas.viewModel.MainViewModel
+import com.example.appreceitas.R
+import com.example.appreceitas.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
 

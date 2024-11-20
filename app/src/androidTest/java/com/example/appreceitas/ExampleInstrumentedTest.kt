@@ -1,4 +1,4 @@
-package com.example.appnotasrapidas
+package com.example.appreceitas
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

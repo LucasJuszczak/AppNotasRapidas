@@ -1,9 +1,9 @@
-package com.example.appnotasrapidas.viewModel
+package com.example.appreceitas.viewModel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.appnotasrapidas.model.PersonRepository
+import com.example.appreceitas.model.PersonRepository
 
 class MainViewModel : ViewModel() {
     private var textWelcome = MutableLiveData<String>()
