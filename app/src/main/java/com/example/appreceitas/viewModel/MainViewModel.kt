@@ -11,7 +11,7 @@ class MainViewModel : ViewModel() {
     private var personRepository = PersonRepository()
 
     init {
-        textWelcome.value = "Olá mundo!"
+        textWelcome.value = "Aplicativo de Receitas!"
     }
 
     fun getWelcome() : LiveData<String> {

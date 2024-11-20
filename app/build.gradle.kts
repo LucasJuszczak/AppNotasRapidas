@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.appnotasrapidas"
+    namespace = "com.example.appreceitas"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.appnotasrapidas"
+        applicationId = "com.example.appreceitas"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

@@ -1,6 +1,8 @@
 <resources>
-    <string name="app_name">AppNotasRapidas</string>
+    <string name="app_name">AppReceitas</string>
     <string name="e_mail">E-mail:</string>
     <string name="password">Senha:</string>
     <string name="login">Login</string>
+    <string name="detalhesReceita">Detalhes da Receita</string>
+    <string name="receita1" />
 </resources>
