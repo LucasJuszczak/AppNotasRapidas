@@ -9,26 +9,28 @@
     tools:context=".view.UserActivity">
 
     <TextView
-        android:id="@+id/text_welcome"
+        android:id="@+id/text_receita1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Hello World!"
+        android:text="@string/receita1"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imgReceita1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
         android:layout_marginStart="30dp"
         android:layout_marginEnd="30dp"
         android:src="@drawable/img_receita_paodequeijo"
         android:contentDescription="@string/receita1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_welcome" />
+        app:layout_constraintTop_toBottomOf="@+id/text_receita1" />
 
     <Button
         android:id="@+id/buttonUser"
@@ -43,5 +45,43 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imgReceita1" />
+
+    <TextView
+        android:id="@+id/text_receita2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/receita2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonUser" />
+
+    <ImageView
+        android:id="@+id/imgReceita2"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/img_receita_bolinhodechuva"
+        android:contentDescription="@string/receita1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_receita2" />
+
+    <Button
+        android:id="@+id/buttonUser2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/black"
+        android:text="@string/detalhesReceita"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgReceita2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

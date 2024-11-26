@@ -4,5 +4,11 @@
     <string name="password">Senha:</string>
     <string name="login">Login</string>
     <string name="detalhesReceita">Detalhes da Receita</string>
-    <string name="receita1" />
+    <string name="receita1">Pão de Queijo</string>
+    <string name="bemvindo">Bem vindo ao Aplicativo de Receitas!</string>
+    <string name="receita2">Bolinho de Chuva Salgado</string>
+    <string name="ingrediente2">Ingredientes:\n\n- 1 xícara de farinha de trigo\n- 1/2 xícara de leite\n- 1 ovo\n- 1 colher de chá de fermento em pó\n- 1/2 colher de chá de sal\n- Óleo para fritar</string>
+    <string name="ingrediente1">Ingredientes:\n\n- 2 xícaras de polvilho doce\n- 1 xícara de queijo ralado\n- 1/2 xícara de leite\n- 1/4 de xícara de óleo\n- 1 ovo\n- 1/2 colher de chá de sal</string>
+    <string name="preparo1">Modo de preparo:\n\n1. Aqueça o leite, o óleo e o sal até ferver e despeje sobre o polvilho, misturando bem.\n\n2. Adicione o ovo e o queijo ralado, misturando até formar uma massa homogênea.\n\n3. Modele bolinhas com as mãos untadas e coloque em uma assadeira.\n\n4. Asse em forno preaquecido a 180°C por 20-25 minutos, até dourar.</string>
+    <string name="preparo2">Modo de preparo:\n\n1. Em uma tigela, misture a farinha, o leite, o ovo, o sal e o fermento até formar uma massa homogênea. Se quiser, adicione queijo ralado ou temperos, como orégano ou salsinha.\n\n2. Aqueça o óleo em uma panela.\n\n3. Com uma colher, coloque porções da massa no óleo quente e frite até os bolinhos ficarem dourados.\n\n4. Escorra em papel-toalha e sirva como petisco ou acompanhamento.</string>
 </resources>

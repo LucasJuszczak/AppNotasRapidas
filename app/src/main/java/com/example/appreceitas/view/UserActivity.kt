@@ -25,10 +25,19 @@ class UserActivity : AppCompatActivity(), View.OnClickListener {
             insets
         }
         binding.buttonUser.setOnClickListener(this)
+        binding.buttonUser2.setOnClickListener(this)
     }
 
     override fun onClick(view: View) {
-        startActivity(Intent(this, Detalhe1Activity::class.java))
-        finish()
+        when (view.id) {
+            R.id.buttonUser  -> {
+                startActivity(Intent(this, Detalhe1Activity::class.java))
+                finish()
+            }
+            R.id.buttonUser2 -> {
+                startActivity(Intent(this, Detalhe2Activity::class.java))
+                finish()
+        }
+        }
     }
 }
